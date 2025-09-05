@@ -1,0 +1,2 @@
+[console_scripts]
+ollama_cli = ollama_cli.cli:main

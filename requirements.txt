@@ -1,0 +1,9 @@
+click==8.1.7
+langchain
+langchain_openai
+langchain_community
+composio_core
+composio_langchain
+requests
+geocoder
+pytz
