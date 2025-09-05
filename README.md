@@ -40,13 +40,12 @@ To use all features, you'll need to set up these environment variables in a `.en
 
 Bash
 
-```
+```bash
 # For web search functionality
 SERPER_API_KEY="your_serper_api_key"
 
 # For weather information
 OPENWEATHERMAP_API_KEY="your_openweather_api_key"
-
 ```
 
 * * * * *
@@ -58,22 +57,20 @@ Usage
 
 Bash
 
-```
+```bash
 ollama_cli
-
 ```
 
 ### Advanced Usage
 
 Bash
 
-```
+```bash
 # Use a specific model
 ollama_cli --model llama3.1:70b
 
 # Use custom Ollama URL
 ollama_cli --base-url http://192.168.1.100:11434
-
 ```
 
 * * * * *
@@ -122,18 +119,16 @@ Prerequisites
 
     Bash
 
-    ```
+    ```bash
     ollama serve
-
     ```
 
 2.  **Model**: Pull your desired model.
 
     Bash
 
-    ```
+    ```bash
     ollama pull llama3.1:8b
-
     ```
 
 3.  **API Keys**: Set up environment variables for external services in your `.env` file.
@@ -145,14 +140,14 @@ Example Interactions
 
 Bash
 
-```
+```bash
 You: What is the weather in Alexandria now?
 Titan is thinking... 🧠
 Titan: Weather in Alexandria: Clear sky, 28°C, Humidity: 65%
 
 You: Search for the next F1 Grand Prix.
 Titan is thinking... 🧠
-Titan: Search results as of 2024-09-05 17:30:00:
+Titan: Search results as of 2025-09-05 17:30:00:
 
 1. F1 Grand Prix Schedule
 URL: https://www.formula1.com/en/latest/article.f1-2024-schedule.3rMhQxT9p.html
@@ -165,7 +160,6 @@ Titan: The current time in Cairo is 2025-09-05 17:31:00
 You: Where am I?
 Titan is thinking... 🧠
 Titan: Your current location: Alexandria, Alexandria Governorate, Egypt
-
 ```
 
 * * * * *
